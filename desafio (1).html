@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Vacinas</title>
+    <link rel="stylesheet" href="desafio.css" >
+    
+</head>
+<body>
+
+    <h1>Cadastro de Vacinas</h1>
+
+    <!-- Formulário de Cadastro -->
+    <form id="cadastroForm">
+        <label for="cpf">CPF da Pessoa:</label>
+        <input type="text" id="cpf" required ><br><br>
+
+        <label for="nome">Nome da Pessoa:</label>
+        <input type="text" id="nome" required><br><br>
+
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" required><br><br>
+
+        <label for="nomeVacina">Nome da Vacina:</label>
+        <input type="text" id="nomeVacina" required><br><br>
+
+        <label for="dataVacina">Data de Vacinação:</label>
+        <input type="date" id="dataVacina" required><br><br>
+
+        <button type="submit" id="cadastrar">Cadastrar</button>
+    </form>
+
+ 
+    <div id="listaCadastros">
+        <ul id="listaVacina"></ul>
+    </div>
+
+</body>
+
+<script src="desafio.js">
+    
+</script>
+</html>
